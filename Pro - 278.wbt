@@ -1,0 +1,50 @@
+#VRML_SIM R2023a utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/floors/protos/RectangleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/balls/protos/Ball.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/robots/gctronic/e-puck/protos/E-puck.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.5468034002100917 0.6292627770501533 0.5522991933162777 2.0092448447002504
+  position -0.3419766810930392 0.03429181881009959 44.548383718798355
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  translation 0 0 -0.4999999999999998
+  floorSize 5 5
+  floorTileSize 3 3
+  wallThickness 0.05
+  wallHeight 0.05
+}
+Ball {
+  translation 1.503939949669787 -0.035202957213567955 -0.4675863146448379
+  rotation -1.4528320570937165e-09 -1.1410887874461322e-08 -0.9999999999999998 -0.15889252053441183
+  name "ball(1)"
+}
+Ball {
+  hidden linearVelocity_0 -4.483829495356066e-14 9.663194200068152e-16 -7.4130498957747e-16
+  hidden angularVelocity_0 -2.9620990548405306e-14 -1.3744468790833804e-12 -5.423172538011088e-29
+  translation -1.3540371588298794 0.7414676020644289 -0.46758632799999955
+  rotation -1.223436990626931e-12 2.671119984556846e-12 1 0.4979159585304169
+}
+E-puck {
+  hidden position_0_0 495.7162532434725
+  hidden position_0_1 544.5273135601395
+  hidden linearVelocity_0 0.03084746900381536 -0.04674598596520549 -4.063648502568687e-08
+  hidden angularVelocity_0 -0.009253209277109256 -0.0060849751491201575 0.0939950501265922
+  hidden rotation_1 0 1 0 5.6277992834647765
+  hidden linearVelocity_1 0.029471265477643005 -0.04465950911644172 -3.973763013506538e-09
+  hidden angularVelocity_1 2.223275725502462 1.4672237873068514 0.09572217478467739
+  hidden rotation_2 0 1 0 4.173377142695095
+  hidden linearVelocity_2 0.03216342589494363 -0.0487396005237292 3.5122810768131957e-09
+  hidden angularVelocity_2 2.4465742765768437 1.614441233193502 0.09599214471726494
+  translation 0.7878712273642154 0.16515828520168802 -0.5000643165649019
+  rotation -0.0003492336870754136 -0.00039803317899666965 0.9999998598027003 -0.9857080180790652
+}
